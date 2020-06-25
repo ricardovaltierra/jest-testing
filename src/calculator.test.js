@@ -11,15 +11,15 @@ test('add (2 + 2 = 4)', () => {
 });
 
 test('add range not equal zero', () => {
-  for (let i = 0; i < 10; i++) {
-    for (let j = 0; j < 10; j++){ 
-      expect(add(i + j)).not.toEqual(0);
+  for (let i = 1; i <= 10; i++) {
+    for (let j = 1; j <= 10; j++){ 
+      expect(add(i, j)).not.toEqual(0);
     }
   }
 });
 
 test('add receives one value throws error', () => {
-  expect(add(2)).toThrow('Please give both values');
+  expect(add(1)).toThrow('please give both values');
 });
 
 test('add strings throws error', () => {
