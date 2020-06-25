@@ -19,12 +19,11 @@ test('add range not equal zero', () => {
 });
 
 test('add receives one value throws error', () => {
-  // expect(() =>  add(1)).toThrow('please give both values');
   expect(() =>  add(1)).toThrow('Please give both values');
 });
 
 test('add strings throws error', () => {
-  expect(add('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() =>  add('mystring', 'mystring')).toThrow('Please add just numbers');
 });
 
 
@@ -37,11 +36,11 @@ test('substract nevative result', () => {
 });
 
 test('substract receives one value throws error', () => {
-  expect(substract(2)).toThrow('Please give both values');
+  expect(() =>  substract(2)).toThrow('Please give both values');
 });
 
 test('substract strings throws error', () => {
-  expect(substract('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() =>  substract('mystring', 'mystring')).toThrow('Please add just numbers');
 });
 
 
@@ -62,11 +61,11 @@ test('multiply num * 0 = 0', () => {
 });
 
 test('multiply receives one value throws error', () => {
-  expect(multiply(2)).toThrow('Please give both values');
+  expect(() =>  multiply(2)).toThrow('Please give both values');
 });
 
 test('multiply strings throws error', () => {
-  expect(multiply('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() =>  multiply('mystring', 'mystring')).toThrow('Please add just numbers');
 });
 
 
@@ -87,9 +86,9 @@ test('divide num / 0 = undefined', () => {
 });
 
 test('divide receives one value throws error', () => {
-  expect(divide(2)).toThrow('Please give both values');
+  expect(() =>  divide(2)).toThrow('Please give both values');
 });
 
 test('divide strings throws error', () => {
-  expect(divide('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() =>  divide('mystring', 'mystring')).toThrow('Please add just numbers');
 });
