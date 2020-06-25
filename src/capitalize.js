@@ -1,19 +1,19 @@
-export function capitalize(str){
-    if (typeof str != 'string'){
-        return str;
+export default function capitalize(str) {
+  if (typeof str !== 'string') {
+    return str;
+  }
+  let str2 = '';
+  let firstLetter = true;
+  let i = 0;
+  str = str.toLowerCase();
+  while (i < str.length) {
+    if (str[i].match(/[a-z]/i) && firstLetter) {
+      str2 += str[i].toUpperCase();
+      firstLetter = false;
+    } else {
+      str2 += str[i];
     }
-    let str2 = "";
-    let firstLetter = true;
-    let i = 0;
-    str = str.toLowerCase();
-    while (i < str.length) {
-        if (str[i].match(/[a-z]/i) && firstLetter) {
-            str2 += str[i].toUpperCase();
-            firstLetter = false;
-        } else {
-            str2 += str[i]
-        }
-        i += 1
-    }
-    return str2;
+    i += 1;
+  }
+  return str2;
 }

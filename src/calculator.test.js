@@ -11,19 +11,19 @@ test('add (2 + 2 = 4)', () => {
 });
 
 test('add range not equal zero', () => {
-  for (let i = 1; i <= 10; i++) {
-    for (let j = 1; j <= 10; j++){ 
+  for (let i = 1; i <= 10; i += 1) {
+    for (let j = 1; j <= 10; j += 1) {
       expect(add(i, j)).not.toEqual(0);
     }
   }
 });
 
 test('add receives one value throws error', () => {
-  expect(() =>  add(1)).toThrow('Please give both values');
+  expect(() => add(1)).toThrow('Please give both values');
 });
 
 test('add strings throws error', () => {
-  expect(() =>  add('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() => add('mystring', 'mystring')).toThrow('Please add just numbers');
 });
 
 
@@ -36,11 +36,11 @@ test('substract adds when first value negative', () => {
 });
 
 test('substract receives one value throws error', () => {
-  expect(() =>  substract(2)).toThrow('Please give both values');
+  expect(() => substract(2)).toThrow('Please give both values');
 });
 
 test('substract strings throws error', () => {
-  expect(() =>  substract('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() => substract('mystring', 'mystring')).toThrow('Please add just numbers');
 });
 
 
@@ -61,11 +61,11 @@ test('multiply num * 0 = 0', () => {
 });
 
 test('multiply receives one value throws error', () => {
-  expect(() =>  multiply(2)).toThrow('Please give both values');
+  expect(() => multiply(2)).toThrow('Please give both values');
 });
 
 test('multiply strings throws error', () => {
-  expect(() =>  multiply('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() => multiply('mystring', 'mystring')).toThrow('Please add just numbers');
 });
 
 
@@ -82,13 +82,13 @@ test('divide - / - = +', () => {
 });
 
 test('divide num / 0 = undefined', () => {
-  expect(() =>  divide(5, 0)).toThrow('Zero divition not possible');
+  expect(() => divide(5, 0)).toThrow('Zero divition not possible');
 });
 
 test('divide receives one value throws error', () => {
-  expect(() =>  divide(2)).toThrow('Please give both values');
+  expect(() => divide(2)).toThrow('Please give both values');
 });
 
 test('divide strings throws error', () => {
-  expect(() =>  divide('mystring', 'mystring')).toThrow('Please add just numbers');
+  expect(() => divide('mystring', 'mystring')).toThrow('Please add just numbers');
 });

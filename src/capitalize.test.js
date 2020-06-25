@@ -1,4 +1,4 @@
-import { capitalize }  from './capitalize';
+import capitalize from './capitalize';
 
 test('returns string capitalized', () => {
   expect(capitalize('mystring')).toBe('Mystring');
@@ -20,18 +20,18 @@ test('capitalize a camelize string', () => {
   expect(capitalize('MyString')).toBe('Mystring');
 });
 
-test('dont capitalize numbers',() => {
+test('dont capitalize numbers', () => {
   expect(capitalize(98)).toBe(98);
-})
+});
 
 test('dont capitalize arrays', () => {
-  expect(capitalize([1,2,3])).toStrictEqual([1,2,3]);
-})
+  expect(capitalize([1, 2, 3])).toStrictEqual([1, 2, 3]);
+});
 
 test('capitalize even if the first characters are not alphanumeric', () => {
-  expect(capitalize("$%#mystring")).toBe('$%#Mystring');
-})
+  expect(capitalize('$%#mystring')).toBe('$%#Mystring');
+});
 
 test('capitalize a capitalized string', () => {
-  expect(capitalize("Mystring")).toBe("Mystring");
-})
+  expect(capitalize('Mystring')).toBe('Mystring');
+});
