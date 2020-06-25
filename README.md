@@ -1,10 +1,8 @@
-# jest-testing
-
 <!-- Badges -->
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
-    <img alt="License: GPL " src="https://img.shields.io/badge/License-GPL-yellow.svg" />
+    <img alt="License: MIT " src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
   <a href="https://twitter.com/redacuve" target="_blank">
     <img alt="Twitter: redacuve " src="https://img.shields.io/twitter/follow/redacuve.svg?style=social" />
@@ -17,9 +15,9 @@
 
 <!-- Project Header -->
   <p align="center">
-    <img src="src/assets/to-do-it.png" width="250">
+    <img src="assets/jest.png" width="250">
   <br>
-  <h1 align="center">Project To Do List</h1>
+  <h1 align="center">Jest Testing</h1>
   <p align="center">
   <br>
    <a href="https://https://github.com/ricardovaltierra/jest-testing"><strong>Explore the repo »</strong></a>
@@ -63,7 +61,7 @@ Test suite for the following libraries:
 
 Feel free to use and recommend this app.
 
-For more details about this project and it's requeriments go to <a href="https://www.theodinproject.com/courses/javascript/lessons/todo-list"> The Odin Project</a>
+For more details about this project and it's requeriments go to <a href="https://www.theodinproject.com/courses/javascript/lessons/testing-practice"> The Odin Project</a>
 
 
 ### Built With
@@ -102,7 +100,7 @@ This webpage is built with pure Javascript and just needs Jest test library for 
     ```
 *   Now you can run every test suite with command
     ```
-    $ npm run test (. | test file)
+    $ npm run test ( . || test_file )
     ```
 *   Now that all of your test succeed, you can refactor the libraries to your convenience ant testing them to see if they work!
 
@@ -135,9 +133,9 @@ This project is under the <a href="https://en.wikipedia.org/wiki/MIT_License#:~:
 
 Rey David Cuevas Vela - [@redacuve](https://twitter.com/redacuve) - redacuve@gmail.com - [linkedin.com/in/redacuve/](https://www.linkedin.com/in/redacuve/)
 
-Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [https://www.linkedin.com/in/ricardovaltierra/]
+Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [linkedin.com/in/ricardovaltierra/](https://www.linkedin.com/in/ricardovaltierra/)
 
-Project Link: [https://github.com/ricardovaltierra/jest-testing](https://https://github.com/ricardovaltierra/jest-testing) - To Do JS Project.
+Project Link: [https://github.com/ricardovaltierra/jest-testing](https://https://github.com/ricardovaltierra/jest-testing) - Jest Testing
 
 <!-- ACKNOWLEDGEMENTS -->
 
