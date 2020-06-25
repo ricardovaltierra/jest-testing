@@ -20,9 +20,9 @@
   <h1 align="center">Jest Testing</h1>
   <p align="center">
   <br>
-   <a href="https://https://github.com/ricardovaltierra/jest-testing"><strong>Explore the repo »</strong></a>
+   <a href="https://github.com/ricardovaltierra/jest-testing/"><strong>Explore the repo »</strong></a>
   <br>
-    <a href="https://https://github.com/ricardovaltierra/jest-testing/issues">Request Feature</a>
+    <a href="https://github.com/ricardovaltierra/jest-testing/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
