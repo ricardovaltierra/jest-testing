@@ -30,6 +30,8 @@ export function divide(num1, num2) {
     throw new Error('Please give both values');
   } else if(typeof num1 != 'number' || typeof num2 != 'number'){
     throw new Error('Please add just numbers');
+  } else if(num2 == 0) {
+    throw new Error('Zero divition not possible');
   }
   return num1 / num2;
 }

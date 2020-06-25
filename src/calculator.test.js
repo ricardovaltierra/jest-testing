@@ -31,8 +31,8 @@ test('substract 2 - 2 = 0', () => {
   expect(substract(2, 2)).toEqual(0);
 });
 
-test('substract nevative result', () => {
-  expect(substract(2, -10)).toEqual(-8);
+test('substract adds when first value negative', () => {
+  expect(substract(-10, 2)).toEqual(-12);
 });
 
 test('substract receives one value throws error', () => {
@@ -77,12 +77,12 @@ test('divide + * - = -', () => {
   expect(divide(2, -2)).toBeLessThan(0);
 });
 
-test('divide - * - = +', () => {
-  expect(divide(-2, 2)).toBeGreaterThan(0);
+test('divide - / - = +', () => {
+  expect(divide(-2, -2)).toBeGreaterThan(0);
 });
 
 test('divide num / 0 = undefined', () => {
-  expect(divide(5, 0)).toBeUndefined();
+  expect(() =>  divide(5, 0)).toThrow('Zero divition not possible');
 });
 
 test('divide receives one value throws error', () => {
