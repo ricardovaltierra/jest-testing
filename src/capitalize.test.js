@@ -25,7 +25,7 @@ test('dont capitalize numbers',() => {
 })
 
 test('dont capitalize arrays', () => {
-  expect(capitalize([1,2,3])).toBe([1,2,3]);
+  expect(capitalize([1,2,3])).toStrictEqual([1,2,3]);
 })
 
 test('capitalize even if the first characters are not alphanumeric', () => {
