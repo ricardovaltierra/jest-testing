@@ -1,7 +1,5 @@
 # jest-testing
-Microverse testing project for the practice of TDD with JEST framework and babel for ES6
 
-# ---------------------------------------
 <!-- Badges -->
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1-blue.svg?cacheSeconds=2592000" />
@@ -24,11 +22,10 @@ Microverse testing project for the practice of TDD with JEST framework and babel
   <h1 align="center">Project To Do List</h1>
   <p align="center">
   <br>
-   <a href="https://github.com/redacuve/to-do-js"><strong>Explore the repo »</strong></a>
+   <a href="https://https://github.com/ricardovaltierra/jest-testing"><strong>Explore the repo »</strong></a>
   <br>
-    <a href="https://github.com/redacuve/to-do-js/issues">Request Feature</a>
+    <a href="https://https://github.com/ricardovaltierra/jest-testing/issues">Request Feature</a>
   </p>
-  <h2 align="center"><a href="https://raw.githack.com/redacuve/to-do-js/todo-list/dist/index.html"><strong>Live Link!</strong></a></h2>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -54,13 +51,15 @@ Microverse testing project for the practice of TDD with JEST framework and babel
 
 ## About The Project
 
-This is a little web app where you can add a list of to-do things over a project, also you can check complete every task you have completed.
+Microverse testing project for the practice of TDD with JEST framework and babel for ES6
 
-It is RESTFUL because you can create, read, update, or delete the list of to-do or projects.
+Test suite for the following libraries:
 
-With To-Do app you can check if a task is done or if need to work with them. everything is simpler.
-
-Don't worry about lose your to-dos because it are stored in your machine.
+- capitalize: Takes a string and returns the same but capitalized.
+- reverseString: Takes a string and returns the reversed of it.
+- calculator: Set two numbers for add, substract, multiply or divide.
+- caesarCipher: Set a string and it returns the same but encoded by caesarCipher algorithm.
+- arrayAnalysis: Takes an array and returns and object containing average, max value, min value and length of it.
 
 Feel free to use and recommend this app.
 
@@ -69,14 +68,11 @@ For more details about this project and it's requeriments go to <a href="https:/
 
 ### Built With
 
-* [HTML5](https://developer.mozilla.org/es/docs/HTML/HTML5)
+* [Jest](https://jestjs.io/en/)
 
-* [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+* [ES6](http://es6-features.org/)
 
-* [bulma](https://bulma.io/documentation/)
-
-* npm Packages used:
-    * [bulma](https://www.npmjs.com/package/bulma)
+* [npm](https://www.npmjs.com/)
 
 <!-- GETTING STARTED -->
 
@@ -84,7 +80,7 @@ For more details about this project and it's requeriments go to <a href="https:/
 
 To get a local copy up and running follow these simple steps.
 
-Clone or fork the <a href="https://github.com/redacuve/to-do-js">repo</a> [git@github.com:redacuve/to-do-js.git]
+Clone or fork the <a href="https://github.com/ricardovaltierra/jest-testing">repo</a> [git@github.com:ricardovaltierra/jest-testing.git]
 
 *note you need have install npm or yarn
 * [npm](https://www.npmjs.com/get-npm)
@@ -94,7 +90,7 @@ Clone or fork the <a href="https://github.com/redacuve/to-do-js">repo</a> [git@g
 <!-- HOW IT WORKS -->
 ## How it Works
 
-This webpage is built with pure Javascript, it needs webpack to proper use because has various imports of code, it has his own classes, and it has various little helper functions, all of the .js files are located inside /src folder, the images are inside /src/assets folder.
+This webpage is built with pure Javascript and just needs Jest test library for aplying tdd. All of the .js files are located inside /src folder.
 
 ### Running the code
 
@@ -104,11 +100,11 @@ This webpage is built with pure Javascript, it needs webpack to proper use becau
     ```
     $ npm install
     ```
-*   Also, you can build this webpage for production, this app it's going to be saved inside the /dist folder, here we can see a main.js file, this is a minified file of the previous files thar are located inside /src folder.
+*   Now you can run every test suite with command
     ```
-    $ npm run build
+    $ npm run test (. | test file)
     ```
-*   Now the app is ready, you can open the index.html inside /dist folder.
+*   Now that all of your test succeed, you can refactor the libraries to your convenience ant testing them to see if they work!
 
 
 <!-- CONTRIBUTING -->
@@ -131,7 +127,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-This project is under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU Public License V3</a>. For more information see <a href="https://github.com/redacuve/restaurant-page/blob/master/LICENSE">here</a>
+This project is under the <a href="https://en.wikipedia.org/wiki/MIT_License#:~:text=Copyright%20(C),%2C%20merge%2C%20publish%2C%20distribute%2C">The MIT Open Source License</a>. For more information see <a href="https://github.com/ricardovaltierra/jest-testing/blob/development/LICENSE">here</a>
 
 <!-- CONTACT -->
 
@@ -139,9 +135,9 @@ This project is under the <a href="https://www.gnu.org/licenses/gpl-3.0.html">GN
 
 Rey David Cuevas Vela - [@redacuve](https://twitter.com/redacuve) - redacuve@gmail.com - [linkedin.com/in/redacuve/](https://www.linkedin.com/in/redacuve/)
 
-Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com
+Ricardo Valtierra - [@RicardoValtie15](https://twitter.com/RicardoValtie15) - ricardo_valtierra@outlook.com  - [https://www.linkedin.com/in/ricardovaltierra/]
 
-Project Link: [github.com/redacuve/to-do-js](https://github.com/redacuve/to-do-js) - To Do JS Project.
+Project Link: [https://github.com/ricardovaltierra/jest-testing](https://https://github.com/ricardovaltierra/jest-testing) - To Do JS Project.
 
 <!-- ACKNOWLEDGEMENTS -->
 
