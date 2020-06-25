@@ -19,7 +19,8 @@ test('add range not equal zero', () => {
 });
 
 test('add receives one value throws error', () => {
-  expect(add(1)).toThrow('please give both values');
+  // expect(() =>  add(1)).toThrow('please give both values');
+  expect(() =>  add(1)).toThrow('Please give both values');
 });
 
 test('add strings throws error', () => {
