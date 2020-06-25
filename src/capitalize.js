@@ -13,6 +13,7 @@ export function capitalize(str){
         } else {
             str2 += str[i]
         }
+        i += 1
     }
     return str2;
 }
