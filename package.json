@@ -1,0 +1,26 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "Microverse testing project for the practice of TDD with JEST framework and babel for ES6",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardovaltierra/jest-testing.git"
+  },
+  "author": "Rey David Cuevas & Ricardo Valtierra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardovaltierra/jest-testing/issues"
+  },
+  "homepage": "https://github.com/ricardovaltierra/jest-testing#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.3",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.1.0"
+  }
+}
