@@ -1,4 +1,4 @@
-import { calculator } from './calculator';
+import calculator from './calculator';
 
 
 test('add (2 + 2 = 4)', () => {
